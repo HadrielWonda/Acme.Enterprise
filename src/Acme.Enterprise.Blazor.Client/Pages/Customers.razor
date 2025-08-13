@@ -1,0 +1,52 @@
+@using System.Net.Http
+@using System.Net.Http.Json
+@page "/customers"
+@inject HttpClient Http
+
+<h3>Customers</h3>
+
+<button class="btn btn-primary" @onclick="Reload">Reload</button>
+
+<table class="table">
+    <thead>
+        <tr><th>Name</th><th>Email</th><th></th></tr>
+    </thead>
+    <tbody>
+        @foreach (var c in customers)
+        {
+            <tr>
+                <td>@c.Name</td>
+                <td>@c.Email</td>
+                <td><button class="btn btn-danger btn-sm" @onclick="() => Delete(c.Id)">Delete</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<CustomerDto> customers = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Reload();
+    }
+
+    private async Task Reload()
+    {
+        customers = await Http.GetFromJsonAsync<List<CustomerDto>>("api/customers");
+        StateHasChanged();
+    }
+
+    private async Task Delete(Guid id)
+    {
+        await Http.DeleteAsync($"api/customers/{id}");
+        await Reload();
+    }
+
+    public class CustomerDto
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+    }
+}
