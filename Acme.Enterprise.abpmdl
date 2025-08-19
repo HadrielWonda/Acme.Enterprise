@@ -1,0 +1,74 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Acme.Enterprise.Domain": {
+      "path": "src/Acme.Enterprise.Domain/Acme.Enterprise.Domain.abppkg",
+      "folder": "src"
+    },
+    "Acme.Enterprise.Application": {
+      "path": "src/Acme.Enterprise.Application/Acme.Enterprise.Application.abppkg",
+      "folder": "src"
+    },
+    "Acme.Enterprise.EntityFrameworkCore": {
+      "path": "src/Acme.Enterprise.EntityFrameworkCore/Acme.Enterprise.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Acme.Enterprise.Application.Tests": {
+      "path": "test/Acme.Enterprise.Application.Tests/Acme.Enterprise.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.Enterprise.Domain.Shared": {
+      "path": "src/Acme.Enterprise.Domain.Shared/Acme.Enterprise.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Acme.Enterprise.Application.Contracts": {
+      "path": "src/Acme.Enterprise.Application.Contracts/Acme.Enterprise.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Acme.Enterprise.HttpApi": {
+      "path": "src/Acme.Enterprise.HttpApi/Acme.Enterprise.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Acme.Enterprise.HttpApi.Client": {
+      "path": "src/Acme.Enterprise.HttpApi.Client/Acme.Enterprise.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Acme.Enterprise.EntityFrameworkCore.Tests": {
+      "path": "test/Acme.Enterprise.EntityFrameworkCore.Tests/Acme.Enterprise.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.Enterprise.TestBase": {
+      "path": "test/Acme.Enterprise.TestBase/Acme.Enterprise.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Acme.Enterprise.Domain.Tests": {
+      "path": "test/Acme.Enterprise.Domain.Tests/Acme.Enterprise.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.Enterprise.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Acme.Enterprise.HttpApi.Client.ConsoleTestApp/Acme.Enterprise.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Acme.Enterprise.DbMigrator": {
+      "path": "src/Acme.Enterprise.DbMigrator/Acme.Enterprise.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Acme.Enterprise.HttpApi.Host": {
+      "path": "src/Acme.Enterprise.HttpApi.Host/Acme.Enterprise.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Acme.Enterprise.Blazor": {
+      "path": "src/Acme.Enterprise.Blazor/Acme.Enterprise.Blazor.abppkg",
+      "folder": "src"
+    },
+    "Acme.Enterprise.Blazor.Client": {
+      "path": "src/Acme.Enterprise.Blazor.Client/Acme.Enterprise.Blazor.Client.abppkg",
+      "folder": "src"
+    }
+  }
+}

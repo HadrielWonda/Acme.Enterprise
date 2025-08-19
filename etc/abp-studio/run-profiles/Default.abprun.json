@@ -1,0 +1,21 @@
+{
+  "folders": {
+    "items": {
+      "Acme.Enterprise": {}
+    }
+  },
+  "applications": {
+    "Acme.Enterprise.HttpApi.Host": {
+      "type": "dotnet-project",
+      "path": "../../../src/Acme.Enterprise.HttpApi.Host/Acme.Enterprise.HttpApi.Host.csproj",
+      "launchUrl": "https://localhost:44351",
+      "folder": "Acme.Enterprise"
+    },
+    "Acme.Enterprise.Blazor": {
+      "type": "dotnet-project",
+      "path": "../../../src/Acme.Enterprise.Blazor/Acme.Enterprise.Blazor.csproj",
+      "launchUrl": "https://localhost:44353",
+      "folder": "Acme.Enterprise"
+    }
+  }
+}

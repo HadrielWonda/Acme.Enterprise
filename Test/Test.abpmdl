@@ -1,0 +1,7 @@
+{
+  "packages": {
+    "Test": {
+      "path": "Test/Test.abppkg"
+    }
+  }
+}

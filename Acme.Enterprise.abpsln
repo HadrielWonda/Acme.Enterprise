@@ -1,0 +1,17 @@
+{
+  "id": "0d109351-3bd0-4cba-b303-e0b55def7a68",
+  "template": "empty",
+  "modules": {
+    "Acme.Enterprise": {
+      "path": "Acme.Enterprise.abpmdl"
+    },
+    "Test": {
+      "path": "Test/Test.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  }
+}
